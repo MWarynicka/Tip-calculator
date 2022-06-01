@@ -1,0 +1,7 @@
+amount_bill= input("What was the total bill? ")
+amount_tip=input("How much tip would you like to give? ")
+people_split= input("How many people to split the bill? ")
+tipy=(float(amount_bill)*float(amount_tip)/100)
+suma=(float(tipy)+ float(amount_bill))/float(people_split)
+suma2= round(suma,2)
+print(f"Each person should pay: {suma2}")
