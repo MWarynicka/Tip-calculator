@@ -1,1 +1,1 @@
-# Test
+# Tip calculator
